@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+}
+style.css.{
+    margin: 0px;
+    padding: 0px;
+}
+.fcountainer {
+    width: 100%;
+    height: 1000vh;
+    background-color:darkslategray;
+
+}
+
+header .header-wrapper {
+    margin: 0%;
+    max-width: 960px;
+}
+
+
+div {
+    display: block;
+}
+
+.img { 
+    justify-content: center;
+    margin: 0px;
+    display: flex;
+    position: relative;
+    padding: 10px 0px;
+
+}
+
+.content {
+    margin: 5px auto;
+}
+
+.countainer {
+    margin: 0px;
+    padding: 0px;
+    max-width: 960px;
+}
+
+.thumb {
+    position: relative;
+}
+
+.btn-body {
+    margin: 15px -5px;
+    position: relative;
+    display: flex;
+}
+
+.btn-body .btn-item {
+    margin: 0 5px;
+    width: 100%;
+}
+
+
+
+.btn-body .btn-item a {
+    text-decoration:none ;
+    width: 100%;
+    padding: 10px 5px;
+    color: #fff;
+    border-radius: 5px;
+   display:  inline-block;
+   text-align: center;
+   visibility: visible;
+   font-family: 'comic sans ms';
+   font-size: 20px;
+   font: bold;
+   margin: auto;
+   position: sticky;
+   position: -webkit-sticky;
+   
+}
+
+a.tbl-biru {
+    background-color: #ea8527;
+    padding: 20px 15px 20px 15px;
+    color: #fffff;
+    cursor: pointer;
+}
+
+a.tbl-biru:hover {
+    background: #04ff00;
+    text-decoration: none;
+}
+
+menu {
+    position: center;
+    float: none;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flexbox;
+    line-height: 50px;
+    top: 0;
+    z-index: 1 ;
+    border-bottom:100px 1px solid #616b36;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: #cc00ff;
+    font-family: 'comic sans ms';
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: center;
+}
+
+
+
+nav ul li a {
+    padding: 0px 16px 0px 16px;
+}
+
+nav ul li a :hover {
+    text-decoration: underline;
+    background-color: #04ff00;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.Gacor-list {
+    width: 1200px;
+    margin: auto;
+    position: left;
+    display: flex;
+}
+
+.Kartu-Gacor p:hover {
+    background: #04ff00;
+    text-decoration: none;
+}
+
+.Kartu-Gacor {
+    column-width: 25%;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 3px;
+    color: #fff;
+    font-size: 13px, center;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgb(255, 255, 255) 69%, rgb(255, 255, 255) 90%, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 100%);
+    border-radius: 25px;
+    padding: 0px;
+}
+
+.Kartu-Gacor img {
+    width: 100%;
+    margin: auto;
+    color: #fff;
+    font-size: 10px;
+    border: center;
+    overflow: hidden;
+    position: relative;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgb(0, 0, 0) 69%, rgb(0, 0, 0) 90%, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 100%);
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.percent p {
+    height: 20px;
+    margin: 5px;
+	width: 100%;
+    color: #000000;
+	bottom: 50px;
+    border-radius: 25px;
+    padding-bottom: 10px;
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-color: rgba(40, 167, 69);
+	transition: width 0.6s ease;
+	-webkit-animation: progress-bar-stripes 1s linear infinite;
+	animation: progress-bar-stripes 1s linear infinite;
+	background-size: 1rem 1rem;
+}
+
+.percent {
+    column-width: 20%;
+    width: 1200px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 5px;
+    color: #fff;
+    font-size: px;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgb(0, 0, 0) 69%, rgb(0, 0, 0) 90%, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 100%);
+    border-radius: 25px;
+    padding-bottom: 0px;
+    font-family: 'comic sans ms';
+}
